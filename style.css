@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-container {
+  display: flex;
+}
+
+.head-container img {
+  margin: 20px;
+  padding: 15px;
+  width: 8%;
+  margin-left: 40px;
+}
+
+.navigation {
+  width: 40%;
+  display: flex;
+  margin-top: 45px;
+  list-style-type: none;
+  margin-left: 670px;
+}
+
+.navigation li {
+  width: 20%;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-container {
+  position: relative;
+  background-color: #707360;
+  color: white;
+  width: 33%;
+  margin: 40px 60px;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.first-container h2 {
+  font-size: 35px;
+}
+
+.first-container p {
+  margin: 20px 0;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.first-container a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.first-container a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.first-img {
+  position: absolute;
+  top: 210px;
+  right: 150px;
+  left: 150px;
+  width: 80%;
+  z-index: -2;
+}
+
+.second-container {
+  position: absolute;
+  width: 50%;
+  top: 675px;
+  left: 560px;
+  background-color: white;
+  color: #707360;
+  z-index: -1;
+}
+
+.second-container h2 {
+  margin-top: 50px;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.second-container p {
+  padding: 0 30px;
+  line-height: 32px;
+  font-style: italic;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.second-container button {
+  border: 2px solid #c5c8b8;
+  padding: 15px 30px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  background-color: transparent;
+  color: grey;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.third-container {
+  background-color: #c4caca;
+  width: 68%;
+  height: 680px;
+  position: absolute;
+  top: 450px;
+  right: 0;
+  z-index: -4;
+}
+
+.last-container {
+  position: absolute;
+  width: 100%;
+  top: 1130px;
+  background-color: rgb(58, 57, 57);
+  color: white;
+  font-size: 15px;
+  padding: 50px;
+  text-align: center;
+}
+
+.last-container a {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.last-container p {
+  margin-bottom: 90px;
+  line-height: 20px;
+}
+
+.last-container a:hover {
+  color: grey;
+  text-decoration: none;
+}
